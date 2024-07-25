@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TDK API ile kelime arama</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="range-box">
+        <h1>Kelimeler ve Anlamları</h1>
+        <div class="price-input-container">
+          <div class="price-input">
+            <div class="price-field">
+              <input type="number" class="min-input" id="min-input" value="" />
+              <input type="number" class="max-input" id="max-input" value="" />
+              <label>
+                <input type="checkbox" id="singleWord" />
+                Tek kelime mi?
+              </label>
+            </div>
+          </div>
+          <div class="slider-container">
+            <div class="price-slider"></div>
+          </div>
+        </div>
+        <div class="range-input">
+          <input type="range" class="min-range" id="min-range" value="" step="1" />
+          <input type="range" class="max-range" id="max-range" value="" step="1" />
+        </div>
+        <div class="search-container">
+          <button onclick="fetchWord()">Kelimeyi Ara</button>
+        </div>
+      </div>
+      <div id="result" class="result"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
