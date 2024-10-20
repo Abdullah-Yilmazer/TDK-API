@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./screenshot.png" alt="Screenhot"/>
+</p>
+
 # Kelime Arama Projesi
 
 Bu proje, bir metin dosyasındaki kelimelerden rastgele birini seçerek, bu kelimenin anlamını TDK (Türk Dil Kurumu) API'si aracılığıyla getiren bir uygulamadır. Proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
